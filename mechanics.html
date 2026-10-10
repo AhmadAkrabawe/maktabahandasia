@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <a href="http://127.0.0.1:5500/index.html">
+            <img src="img/Untitled-1.png" alt="" class="logo">
+        </a>
+        <div class="category">
+            <i class="fa-solid fa-gear"></i>
+            <h2>الهندسة الميكانيكية</h2>
+        </div>
+    </header>
+
+        <section class="suc-basics">
+        
+        <div class="card" onclick="openPop1()">
+            <i class="fa-solid fa-scale-balanced"></i><br>
+            <span>استاتيكا</span>
+        </div>
+
+        <div class="card" onclick="openPop2()">
+            <i class="fa-solid fa-gears"></i><br>
+            <span>ديناميكا</span>
+        </div>
+
+        <div class="card" onclick="openPop3()">
+            <i class="fa-solid fa-temperature-high"></i><br>
+            <span>ديناميكا حرارية</span>
+        </div>
+
+        <div class="card" onclick="openPop4()">
+            <i class="fa-solid fa-sliders"></i><br>
+            <span>تحكم آلي</span>
+        </div>
+
+        <div class="card" onclick="openPop5()">
+            <i class="fa-solid fa-gear"></i><br>
+            <span>نظرية الآلات</span>
+        </div>
+
+        <div class="card" onclick="openPop6()">
+            <i class="fa-solid fa-bolt"></i><br>
+            <span>دوائر كهربائية عامة</span>
+        </div>
+
+        <div class="card" onclick="openPop7()">
+            <i class="fa-solid fa-cubes-stacked"></i><br>
+            <span>مقاومة المواد</span>
+        </div>
+
+        <div class="card" onclick="openPop9()">
+            <i class="fa-solid fa-water"></i><br>
+            <span>ميكانيكا الموائع</span>
+        </div>
+
+        <div class="card" onclick="openPop10()">
+            <i class="fa-solid fa-fire-flame-simple"></i><br>
+            <span>انتقال حرارة</span>
+        </div>
+
+        <div class="card" onclick="openPop11()">
+            <i class="fa-solid fa-compass-drafting"></i><br>
+            <span>تصميم ميكانيكي</span>
+        </div>
+
+        <div class="card" onclick="openPop12()">
+            <i class="fa-solid fa-gauge-high"></i><br>
+            <span>أنظمة القدرة الهيدروليكية و الهوائية</span>
+        </div>
+
+        <div class="card" onclick="openPop13()">
+            <i class="fa-solid fa-ruler-combined"></i><br>
+            <span>قياسات هندسية</span>
+        </div>
+
+        <div class="card" onclick="openPop14()">
+            <i class="fa-solid fa-industry"></i><br>
+            <span>عمليات تصنيع</span>
+        </div>
+
+        <div class="card" onclick="openPop15()">
+            <i class="fa-solid fa-car"></i><br>
+            <span>محركات الاحتراق الداخلي</span>
+        </div>
+
+        <div class="card" onclick="openPop16()">
+            <i class="fa-solid fa-cubes"></i><br>
+            <span>طرائق العنصر المحدود</span>
+        </div>
+
+        <div class="card" onclick="openPop17()">
+            <i class="fa-solid fa-drafting-compass"></i><br>
+            <span>الرسم الهندسي</span>
+        </div>
+
+        <div class="card" onclick="openPop18()">
+            <i class="fa-solid fa-ruler"></i><br>
+            <span>رسم ميكانيكي</span>
+        </div>
+
+        <div class="card" onclick="openPop19()">
+            <i class="fa-solid fa-atom"></i><br>
+            <span>علم المواد</span>
+        </div>
+
+        <div class="card" onclick="openPop20()">
+            <i class="fa-solid fa-plug"></i><br>
+            <span>آلات كهربائية</span>
+        </div>
+
+        <div class="card" onclick="openPop21()">
+            <i class="fa-solid fa-wind"></i><br>
+            <span>ديناميكا الغازات</span>
+        </div>
+
+        <div class="card" onclick="openPop22()">
+            <i class="fa-solid fa-arrows-rotate"></i><br>
+            <span>تحويل الطاقة</span>
+        </div>
+
+        <div class="card" onclick="openPop23()">
+            <i class="fa-solid fa-wave-square"></i><br>
+            <span>اهتزازات ميكانيكية</span>
+        </div>
+
+        <div class="card" onclick="openPop24()">
+            <i class="fa-solid fa-industry"></i><br>
+            <span>محطات توليد طاقة</span>
+        </div>
+
+
+
+
+    </section>
+
+    <section>
+
+        <!-- استاتيكا -->
+        <div id="popupDialog_1" class="popup" style="visibility: hidden;">
+            <h3>استاتيكا</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/s7bs20rxh1j7vyz/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D9%2585%25D8%25AD%25D9%2585%25D8%25AF_%25D9%2585%25D8%25A7%25D8%25B2%25D9%2586/file"><b>ملخص محمد مازن</b></a><br>
+                        <a href="https://www.mediafire.com/file/9r1qfxjak8q2wlm/%25D8%25AF%25D9%2581%25D8%25AA%25D8%25B1_%25D8%25A7%25D8%25B3%25D8%25AA%25D8%25A7%25D8%25AA%25D9%258A%25D9%2583%25D8%25A7_%25D9%2584%25D9%2584%25D8%25B7%25D8%25A7%25D9%2584%25D8%25A8_%25D9%258A%25D9%2588%25D8%25B3%25D9%2581_%25D8%25AC%25D8%25A7%25D8%25AF_%25D8%25A7%25D9%2584%25D9%2584%25D9%2587.pdf/file"><b>ملخص يوسف جاد الله</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLVgrGgkWLpZZBAvvS0I-6JUtCZM_3b-Db"><b>- إبراهيم عكة</b></a><br>
+                        <a href="https://www.youtube.com/playlist?list=PLIZKR6SQzuRnPDmo3NuzT6vdnu8kwRBhH"><b>- محمد مازن</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://civilittee.com/storage/images/files/file_1712351875qg0nd.pdf"><b>Engineering Mechanics: Statics Russell C. Hibbeler</b></a>
+                        <a href="https://dl.icdst.org/pdfs/files3/693ee776369b240802091a54ec4f73a6.pdf"><b>Engineering Mechanics: Statics J. L. Meriam & L. G. Kraige</b></a>
+                        <a href="https://ndl.ethernet.edu.et/server/api/core/bitstreams/822f8405-7bb1-4371-814d-1e1f143bfcb1/content"><b>Vector Mechanics for Engineers: Statics	F. P. Beer, E. R. Johnston et al.</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop1()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/استاتيكا.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- ديناميكا -->
+        <div id="popupDialog_2" class="popup" style="visibility: hidden;">
+            <h3>ديناميكا</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/5r3et52qwxvchv7/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D8%25AF%25D8%25A7%25D9%258A%25D9%2586%25D8%25A7%25D9%2585%25D9%258A%25D9%2583_islam/file"><b>ملخص إسلام</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=ZtvtcLqHODI&list=PLoTIA3troNRkxMumMxv26kJwmimSE1dNU"><b>- د.حسين معايطة</b></a><br>
+                        <a href="https://www.youtube.com/watch?v=8kc4CD0J8Yc&list=PLVgrGgkWLpZYi_a3Nvt6u3R2EI1haG5n8"><b>- إبراهيم عكة</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://oxvard.wordpress.com/wp-content/uploads/2018/05/engineering-mechanics-dynamics-7th-edition-j-l-meriam-l-g-kraige.pdf"><b>Engineering Mechanics: Dynamics Russell C. Hibbeler</b></a><br>
+                        <a href="https://oxvard.wordpress.com/wp-content/uploads/2018/05/engineering-mechanics-dynamics-7th-edition-j-l-meriam-l-g-kraige.pdf"><b>Engineering Mechanics: Dynamics J. L. Meriam & L. G. Kraige</b></a><br>
+                        <a href="https://ndl.ethernet.edu.et/server/api/core/bitstreams/822f8405-7bb1-4371-814d-1e1f143bfcb1/content"><b>Vector Mechanics for Engineers: Dynamics F. P. Beer, E. R. Johnston et al.</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop2()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/ديناميكا.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- ديناميكا حرارية -->
+        <div id="popupDialog_3" class="popup" style="visibility: hidden;">
+            
+            <h3>ديناميكا حرارية</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/3btic29knymz8ck/%D9%85%D9%88%D9%82%D8%B9+%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D8%AF+%D9%81%D9%8A+%D8%A7%D9%84%D9%81%D9%8A%D8%B2%D9%8A%D8%A7%D8%A1+%D9%80+%D9%83%D8%AA%D8%A7%D8%A8+%D8%A7%D9%84%D8%AF%D9%8A%D9%86%D8%A7%D9%85%D9%8A%D9%83%D8%A7+%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9+%D9%80+%D9%86%D8%B8%D8%A7%D9%84+%D8%A7%D9%84%D8%B1%D8%B4%D9%8A%D8%AF%D8%A7%D8%AA.pdf/file"><b>الديناميكا الحرارية نضال الرشيدات</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLph3akWRZO9Rub7QpUS-pbV8EgzzOUmh-"><b>- محمد السيد</b></a><br>
+                        <a href="https://www.youtube.com/playlist?list=PLph3akWRZO9RxHi0aVKZB2w1ZxYWdSyD4"><b>- محمد السيد</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://www.arma.org.au/wp-content/uploads/2017/03/Fundamentals-of-Engineering-Thermodynamics-by-Michael-J.Moran-Howard-N.-Shapiro.pdf"><b>Fundamentals of Engineering Thermodynamics M. J. Moran, H. N. Shapiro et al.</b></a><br>
+                        <a href="https://www.slideshare.net/slideshow/basicengineeringthermodynamicspdf/261792436"><b>basic engineering thermodynamics rayner joel</b></a>
+                        <a href="https://www.arma.org.au/wp-content/uploads/2017/03/Fundamentals-of-thermodynamics.pdf"><b>Fundamentals of Thermodynamics, 7e</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop3()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/حرارية.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- تحكم آلي -->
+        <div id="popupDialog_4" class="popup" style="visibility: hidden;">
+            
+            <h3>تحكم آلي</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://drive.google.com/file/d/1fCeZ0Ogx2Kdw_NhVG0q8pUpKyfW45uqi/view?usp=drive_link"><b>دفتر د.فادي</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLoTIA3troNRmt8xj8qjixVDeHxeurlBju"><b>- د.فادي الفقس</b></a><br>
+                        <a href="https://www.youtube.com/playlist?list=PLpsERNTNcD-6S7q2yiau-crbmmRQWDc4H"><b>- احمد ابو كوش</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://koracademy.com/sites/default/files/inline-files/norman%20nise.pdf"><b>Control Systems Engineering Norman S. Nise</b></a><br>
+                        <a href="https://mechfamily-ju.com/storage/images/files/file_17314308026pQTy.pdf"><b>Modern Control Engineering Katsuhiko Ogata</b></a><br>
+                        <a href="https://controltheorymaster.wordpress.com/wp-content/uploads/2017/11/farid-golnaraghi-benjamin-c-kuo-automatic-control-systems.pdf"><b>Automatic Control Systems	Benjamin C. Kuo & Farid Golnaraghi</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop4()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/تحكم.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- نظرية الآلات -->
+        <div id="popupDialog_5" class="popup" style="visibility: hidden;">
+            
+            <h3>نظرية الآلات</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/x3c0kn58hrcof5b/%25D8%25AF%25D9%2581%25D8%25AA%25D8%25B1_%25D9%2586%25D8%25B8%25D8%25B1%25D9%258A%25D8%25A9_%25D8%25A7%25D9%2584%25D8%25B7%25D8%25A7%25D9%2584%25D8%25A8%25D8%25A9_%25D8%25B3%25D9%258A%25D8%25B1%25D9%258A%25D9%2586_%25D9%2585%25D8%25B5%25D8%25B7%25D9%2581%25D9%2589.pdf/file"><b>دفتر سيرين</b></a><br>
+                        <a href="https://drive.google.com/file/d/1xmMdccxt-ZwdT4gz42eTM9rkBvA_cIkv/view?usp=drive_link"><b>دفتر عبد السلام الصباغ</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLLV20d95DZpKTdKySlyJ-C8CouVRT1Gzi"><b>- لجنة الميكانيك</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://ftp.idu.ac.id/wp-content/uploads/ebook/tdg/DESIGN%20SISTEM%20DAYA%20GERAK/Theory%20of%20Machines%20and%20Mechanisms%20(%20PDFDrive%20).pdf"><b>Theory of Machines and Mechanisms	John J. Uicker, Gordon R. Pennock & Joseph E. Shigley</b></a><br>
+                        <a href="https://dn760107.eu.archive.org/0/items/dli.ernet.523148/523148-Theory%20Of%20Machines.pdf"><b>Theory of Machines S. S. Rattan</b></a><br>
+                        <a href="https://elcom-team.com/Subjects/%D8%AF%D9%88%D8%A7%D8%A6%D8%B1%20%D9%83%D9%87%D8%B1%D8%A7%D8%A6%D9%8A%D8%A9%201/%D8%A7%D9%84%D9%83%D8%AA%D8%AA%D8%A8%20%D9%88%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%84/cct1-book(9ed).pdf"><b>Engineering Circuit Analysis	William H. Hayt, Jack E. Kemmerly & Steven M. Durbin</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop5()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/نظرية.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- دوائر كهربائية عامة -->
+        <div id="popupDialog_6" class="popup" style="visibility: hidden;">
+            
+            <h3>دوائر كهربائية عامة</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://drive.google.com/file/d/1NCV8TVQyQ7esZ3SG_ZYJ8xSdeY9ZE1LE/view?usp=drive_link"><b>دفتر</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLbqfKrQqH_uCuXerPGzCfRWgzY7czzlFB"><b>- محمود سلهب</b></a><br>
+                        <a href="https://www.youtube.com/watch?v=U_hw2RzNTI0&list=PLww54WQ2wa5rOJ7FcXxi-CMNgmpybv7ei"><b>- وليد عيسى</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://elcom-team.com/Subjects/%D8%AF%D9%88%D8%A7%D8%A6%D8%B1%20%D9%83%D9%87%D8%B1%D8%A7%D8%A6%D9%8A%D8%A9%201/%D8%A7%D9%84%D9%83%D8%AA%D8%AA%D8%A8%20%D9%88%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%84/cct1-book(9ed).pdf"><b>Engineering Circuit Analysis	William H. Hayt, Jack E. Kemmerly & Steven M. Durbin</b></a><br>
+                        <a href="https://downloads.laboratoryb.org/books/ELECTRIC_CIRCUITS12e-James_W._Nilsson.pdf"><b>Electric Circuits	James W. Nilsson & Susan A. Riedel</b></a>
+                        <a href=""><b></b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop6()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/دوائر.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- مقاومة المواد -->
+        <div id="popupDialog_7" class="popup" style="visibility: hidden;">
+            
+            <h3>مقاومة المواد</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/aakwx83bsc2wje7/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D9%2585%25D9%2582%25D8%25A7%25D9%2588%25D9%2585%25D8%25A9_%25D9%2581%25D8%25A7%25D9%258A%25D9%2586%25D8%25A7%25D9%2584_%25D9%2585._%25D8%25AF%25D8%25A7%25D9%2586%25D8%25A7.pdf/file"><b>دفتر د.دانا</b></a><br>
+                        <a href="https://www.mediafire.com/file/5isvo6wd3gi3aln/%25D8%25AF%25D9%2581%25D8%25AA%25D8%25B1_%25D9%2585%25D9%2582%25D8%25A7%25D9%2588%25D9%2585%25D8%25A9_%25D9%2585%25D9%2588%25D8%25A7%25D8%25AF_%25D8%25B9%25D8%25A8%25D8%25AF%25D8%25A7%25D9%2584%25D9%2584%25D9%2587_%25D8%25A7%25D9%2584%25D8%25B2%25D9%2588%25D8%25A7%25D9%2587%25D8%25B1%25D8%25A9.pdf/file"><b>دفتر عبدالله الزواهرة</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=ZVWptrUj0OQ&list=PLVgrGgkWLpZZ1UxBbwn8LhY45Kaxcjafe"><b>- إبراهيم عكة</b></a><br>
+                        <a href="https://www.youtube.com/watch?v=s2eOtTQTGQw&list=PLpsERNTNcD-4Bhvnqst3AOpl0mVoMxwrq&pp=0gcJCf8COCosWNin"><b>- أحمد بني ياسين</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://civilengineeringcontent.wordpress.com/wp-content/uploads/2017/08/mechanics-of-materials-james.pdf"><b>Mechanics of Materials	Ferdinand P. Beer, E. Russell Johnston et al.</b></a><br>
+                        <a href="https://vipulzblog.wordpress.com/wp-content/uploads/2018/08/strength-of-material-by-r-k-bansal-31.pdf"><b>Strength of Materials	R. K. Bansal</b></a>
+                        <a href=""><b></b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop7()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/مقاومة.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- ميكانيكا الموائع -->
+        <div id="popupDialog_9" class="popup" style="visibility: hidden;">
+            
+            <h3>ميكانيكا الموائع</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/1pxnr6nrzqzux37/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D9%2585%25D8%25A7%25D8%25AF%25D8%25A9_%25D8%25A7%25D9%2584%25D9%2581%25D9%2584%25D9%2588%25D9%258A%25D8%25AF_%25D8%25AE%25D9%2584%25D9%258A%25D9%2584_%25D8%25A7%25D9%2584%25D8%25AD%25D9%2588%25D8%25B1%25D8%25A7%25D9%2586%25D9%258A.pdf/file"><b>ملخص خليل الحوراني</b></a><br>
+                        <a href="https://www.mediafire.com/file/tlf8rp91u3a5fvv/%25D8%25AA%25D9%2584%25D8%25AE%25D9%258A%25D8%25B5_%25D9%2581%25D9%2584%25D9%2588%25D9%258A%25D8%25AF__spu.pdf/file"><b>ملخص SPU</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=WLTNnK3cs-I&list=PLLV20d95DZpL53m4IdRFGxHojilwK_ZJK"><b>- لجنة الميكانيك</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://warwick.ac.uk/fac/sci/eng/staff/ymc/members/former/azimi/project/references/white_frank_m._-_fluid_mechanics_4th_ed_mcgraw_hill.pdf"><b>Fluid Mechanics Frank M. White</b></a><br>
+                        <a href="https://dl.konkur.in/2025/02/Fluid2020-%5Bwww.konkur.in%5D.pdf"><b>Fluid Mechanics Pritchard, Fox & McDonald</b></a><br>
+                        <a href="https://lunyax.wordpress.com/wp-content/uploads/2018/04/fluid-mechanics-fundaments-and-applications.pdf"><b>Fluid Mechanics: Fundamentals and Applications Yunus A. Çengel & John M. Cimbala</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop9()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/موائع.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+                <!-- انتقال حرارة -->
+        <div id="popupDialog_10" class="popup" style="visibility: hidden;">
+            
+            <h3></h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://drive.google.com/file/d/1KhGVDy_ZUZVZmm8Vta8ZLPtjmc1emqyQ/view?usp=drive_link"><b>دفتر د.ممدوح البصول</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=cxVDF17tBwo&list=PLLV20d95DZpLG26KwoufcbzOrz3rwE2Pb&pp=0gcJCf8COCosWNin"><b>- لجنة الميكانيك</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://madar-ju.com/storage/images/files/file_1738891122cRBDf.pdf"><b>Fundamentals of Heat and Mass Transfer Frank P. Incropera et al.</b></a><br>
+                        <a href="https://www.academia.edu/30479689/Heat_and_Mass_Transfer_Fundamentals"><b>Heat and Mass Transfer: Fundamentals & Applications Yunus A. Çengel & Afshin Ghajar</b></a>
+                        <a href=""><b></b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop10()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/حرارة.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+                <!-- تصميم ميكانيكي  -->
+        <div id="popupDialog_11" class="popup" style="visibility: hidden;">
+            
+            <h3>تصميم ميكانيكي</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b>ملخص</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLPvdBqKiQoom1a7sz4dCyqEfoXu7pb8l0"><b>- محمود ربابعة</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://mechfamily-ju.com/storage/images/files/file_17314351121Fr90.pdf"><b>Shigley's Mechanical Engineering Design Richard G. Budynas & J. Keith Nisbett</b></a><br>
+                        <a href="https://dokumen.pub/design-of-machine-elements-9788194778738-9788194778790.html"><b>Machine Design: An Integrated Approach Robert L. Norton</b></a><br>
+                        <a href="https://www.g-w.com/assets/files/pdf/sampchap/9798888174432_fm.pdf"><b>Design of Machine Elements V. B. Bhandari</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop11()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/تصميم.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+                <!-- أنظمة القدرة الهيدروليكية و الهوائية -->
+        <div id="popupDialog_12" class="popup" style="visibility: hidden;">
+            
+            <h3></h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b>ملخص</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLoTIA3troNRkusTSIplRkCvjyGGOF11El="><b>- د.أحمد عواد</b></a>
+                        <a href="https://www.youtube.com/watch?v=_-IfT10frqE&list=PLDqnj5U67zWV2kT4PY9QV37WAQ915jhTA"><b>- م. محمد</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://elcom-team.com/Subjects/%D8%A7%D9%86%D8%B8%D9%85%D8%A9%20%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83%D9%8A%D8%A9/hydro.pdf"><b>Fluid Power with Applications	Anthony Esposito</b></a><br>
+                        <a href="https://pdfcoffee.com/hydraulic-control-systems-book-by-herbert-e-merritt--pdf-free.html"><b>Hydraulic Control Systems	Herbert E. Merritt</b></a><br>
+                        <a href="https://vdoc.pub/documents/mechanical-measurements-4aaqm15hg3t0"><b>Mechanical Measurements	Thomas G. Beckwith, Roy D. Marangoni & John H. Lienhard V</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop12()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/قدرة.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+               <!-- قياسات هندسية -->
+        <div id="popupDialog_13" class="popup" style="visibility: hidden;">
+            
+            <h3>قياسات هندسية</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/03m4ft2eybh5nyb/%25D8%25AA%25D9%2584%25D8%25AE%25D9%258A%25D8%25B5_%25D9%2582%25D9%258A%25D8%25A7%25D8%25B3%25D8%25A7%25D8%25AA_%25D9%2585%25D8%25AF_islam.pdf/file"><b>ملخص إسلام</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLLV20d95DZpKYcyr9LDmurCMwFUcHIyZ1"><b>- لجنة الميكانيك</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://vdoc.pub/documents/mechanical-measurements-4aaqm15hg3t0"><b>Mechanical Measurements	Thomas G. Beckwith, Roy D. Marangoni & John H. Lienhard V</b></a><br>
+                        <a href="https://gsfcuniversitymmm.wordpress.com/wp-content/uploads/2017/02/krishnamurthy_l-_raghavendra_n-_v_engineeringbookzz-org.pdf"><b>Engineering Metrology and Measurements	N. V. Raghavendra & Krishnamurthy</b></a>
+                        <a href=""><b></b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop13()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/قياسات.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+                <!-- عمليات تصنيع -->
+        <div id="popupDialog_14" class="popup" style="visibility: hidden;">
+            
+            <h3>عمليات تصنيع</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b>ملخص</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href=""><b>- شرح </b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://www.kaizen-ju.com/storage/images/files/file_17265187465rJv2.pdf"><b>Manufacturing Engineering and Technology	Serope Kalpakjian & Steven R. Schmid</b></a><br>
+                        <a href="https://tusharaneyrao.wordpress.com/wp-content/uploads/2019/12/fundamentals-of-modern-manufacturing-materials-processes-and-systems.pdf"><b>Fundamentals of Modern Manufacturing	Mikell P. Groover</b></a><br>
+                        <a href="https://dl.ojocv.gov.et/admin_/book/Manufacturing%20Engineering%20And%20Technology%20Seventh%20Edition%20By%20Steven%20R.%20Schmid%20and%20Serope%20Kalpakjian.pdf"><b>Manufacturing Processes for Engineering Materials	Serope Kalpakjian & Steven R. Schmid</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop14()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/تصنيع.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+                <!-- محركات الاحتراق الداخلي -->
+        <div id="popupDialog_15" class="popup" style="visibility: hidden;">
+            
+            <h3>محركات الاحتراق الداخلي</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://drive.google.com/file/d/1vmFCqwIvpGkCBq85pUXM7WfeMga87w_M/view?usp=drive_link"><b>دفتر د. منتصر</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=H8CHLxCLZv8&list=PLph3akWRZO9T2UD01sXKk2HygH2793kjs"><b>- محمد السيد</b></a><br>
+                        <a href="https://www.youtube.com/watch?v=zFtfYd3ZpGA&list=PLAsIlqPnYwTt66kpXJoB2MzQi1F93Gw7w"><b>- ميكانيزم </b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://dl.icdst.org/pdfs/files3/99e7aaa5c9b3ad06088da291045abca2.pdf"><b>Internal Combustion Engine Fundamentals	John B. Heywood</b></a><br>
+                        <a href="https://www.scribd.com/document/723956758/Internal-Combustion-Engines-by-Ganesan-4-Ed"><b>Internal Combustion Engines	V. Ganesan</b></a><br>
+                        <a href="https://2k9meduettaxila.wordpress.com/wp-content/uploads/2012/09/engineering-fundamentals-of-the-internal-combustion-engine-2k9meduettaxila-wordpress-com.pdf"><b>Engineering Fundamentals of the Internal Combustion Engine	Willard W. Pulkrabek</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop15()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/محركات.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+                <!-- طرائق العنصر المحدود -->
+        <div id="popupDialog_16" class="popup" style="visibility: hidden;">
+            
+            <h3>طرائق العنصر المحدود</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://drive.google.com/file/d/1Wxx32AV3s-Y5y1UttbyW8s7LggB9za5u/view?usp=drive_link"><b>دفتر د. فادي الفقس</b></a><br>
+                        <a href="https://www.mediafire.com/file/5x2ucrafv6itd8q/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D8%25A5%25D8%25B3%25D9%2584%25D8%25A7%25D9%2585_%25D8%25A3%25D9%258A%25D9%2588%25D8%25A8.pdf/file"><b>ملخص إسلام أيوب</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=70Mm87j3BAg&list=PLLV20d95DZpIpheTWc8ZWTvsUeJT-vWlx"><b>- لجنة الميكانيك </b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://api.pageplace.de/preview/DT0400.9780080531670_A23527211/preview-9780080531670_A23527211.pdf"><b>The Finite Element Method: Its Basis and Fundamentals	O. C. Zienkiewicz, R. L. Taylor & J. Z. Zhu</b></a><br>
+                        <a href="https://soaneemrana.org/onewebmedia/Finite%20Element%20Procedures%20in%20Engineering%20Analysis%20Bathe%20K.J.pdf"><b>Finite Element Procedures	Klaus-Jürgen Bathe</b></a><br>
+                        <a href="https://cybertycoons.wordpress.com/wp-content/uploads/2014/04/robert_d-_cook_david_s-_malkus_michael_e-_pleshbookos-org-fem.pdf"><b>Concepts and Applications of Finite Element Analysis	Robert D. Cook et al.</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop16()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/طرائق.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+                <!-- الرسم الهندسي -->
+        <div id="popupDialog_17" class="popup" style="visibility: hidden;">
+            
+            <h3>الرسم الهندسي</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://drive.google.com/file/d/1Ry83Tk_4wKTEXFryZE40R5hQC0CA9x7i/view?usp=drive_link"><b>ملخص رسم يدوي</b></a><br>
+                        <a href="https://drive.google.com/file/d/1_akB30DzlCpy1hjjc84ass8pkt2EDxmy/view?usp=drive_link"><b>أوتوكاد</b></a>
+
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=-fWvesHVFKI&list=PLAMNllAc1NDsKRK5PrnfNQK-7y60l4suX"><b>- Study time </b></a><br>
+                        <a href="https://www.youtube.com/watch?v=s4jhsT9_bBY&list=PLFUszXtJ26-7_pnYtWbCT-qKjD5w-oRzx"><b>- لجنة سنافر البوليتيكنيك(أوتوكاد) </b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://www.benardmakaa.com/wp-content/uploads/2023/01/3062.-Madsen-D.A.-Madsen-D.P.-Engineering-Drawing-Design.pdf"><b>Engineering Graphics Frederick E. Giesecke et al.</b></a><br>
+                        <a href="https://ia800105.us.archive.org/0/items/TextbookOfEngineeringDrawing_201802/Textbook%20of%20Engineering%20Drawing.pdf"><b>Engineering Drawing and Design David A. Madsen & David P. Madsen</b></a>
+                        <a href="https://www.mediafire.com/file/795x18zz6w5yj64/%25D9%2583%25D8%25AA%25D8%25A7%25D8%25A8_%25D8%25B1%25D8%25B3%25D9%2585_%25D9%2587%25D9%2586%25D8%25AF%25D8%25B3%25D9%258A_%25D9%258A%25D8%25AF%25D9%2588%25D9%258A.pdf/file"><b>الرسم الهندسي</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop17()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/هندسي.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+                <!-- رسم ميكانيكي -->
+        <div id="popupDialog_18" class="popup" style="visibility: hidden;">
+            
+            <h3>رسم ميكانيكي</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=ZSArzi5zLVQ&list=PLLV20d95DZpLAZPmXWXtNNEBT7w-QFoHr"><b>- لجنة الميكانيك(اوتوكاد) </b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://dl.ojocv.gov.et/admin_/book/Machine%20Drawing%203rd%20Edition%20by%20K.L%20Narayana.pdf"><b>Machine Drawing	K. L. Narayana, P. Kannaiah & K. Venkata Reddy</b></a><br>
+                        <a href="https://soaneemrana.com/onewebmedia/ENGINEERING%20DRAWING%20BY%20N.D%20BHATT.pdf"><b>Engineering Drawing	N. D. Bhatt</b></a>
+                        <a href=""><b></b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop18()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/ميكانيكي.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+                <!-- علم المواد -->
+        <div id="popupDialog_19" class="popup" style="visibility: hidden;">
+            
+            <h3>علم المواد</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://drive.google.com/file/d/1R5DQxGxIpp9BeE9gzz-tD7F6fuLTxzyu/view?usp=drive_link"><b>ملخص علم مواد</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=vMGwv3rOwtg&list=PLH-t4LUMnvWAAca000X1FV0DWe8Fq4b0v&index=1"><b>- أيمن الروايفة </b></a><br>
+                        <a href="https://www.youtube.com/watch?v=SY7_Xyj4zd4&list=PL9GcWC88VJMETsijUaUxVH65Jv0pRGcXH&index=5"><b>- د. محمود صالح </b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://ftp.idu.ac.id/wp-content/uploads/ebook/tdg/TEKNOLOGI%20REKAYASA%20MATERIAL%20PERTAHANAN/Materials%20Science%20and%20Engineering%20An%20Introduction%20by%20William%20D.%20Callister,%20Jr.,%20David%20G.%20Rethwish%20(z-lib.org).pdf"><b>Materials Science and Engineering: An Introduction	William D. Callister Jr. & David G. Rethwisch</b></a><br>
+                        <a href="https://anupturnedworld.wordpress.com/wp-content/uploads/2016/06/askeland-the-science-and-engineering-of-materials.pdf"><b>The Science and Engineering of Materials	Donald R. Askeland & Wendelin J. Wright</b></a>
+                        <a href=""><b></b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop19()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/مواد.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+                <!-- آلات كهربائية -->
+        <div id="popupDialog_20" class="popup" style="visibility: hidden;">
+            
+            <h3>آلات كهربائية</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://drive.google.com/file/d/1TzBk-E-RffW95dJolLSI_rLcLEIES5uM/view?usp=drive_link"><b>دفتر د.أيمن الرواشدة</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=JW97UZEonn4&list=PLdL3o9rqPLb5to3kyjXMawC14zsAWp6Uu"><b>- أحمد أبو الرب </b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://uodiyala.edu.iq/uploads/PDF%20ELIBRARY%20UODIYALA/EL99/Electric%20Machinery.pdf"><b>Electric Machinery A. E. Fitzgerald, Charles Kingsley & Stephen D. Umans</b></a><br>
+                        <a href="https://elcom-team.com/Subjects/%D8%A2%D9%84%D8%A7%D8%AA%20%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A6%D9%8A%D8%A9%201/%D8%A7%D9%84%D9%83%D8%AA%D8%A8%20%D9%88%20%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%84/machine-book-(5th-ed)-compressed.pdf"><b>Electric Machinery Fundamentals Stephen J. Chapman</b></a><br>
+                        <a href="https://lifeskillprogram.wordpress.com/wp-content/uploads/2014/05/principles-of-electrical-machines-power-electronics-by-p-c-sen.pdf"><b>Principles of Electric Machines and Power Electronics	P. C. Sen</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop20()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/آلات.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+               <!-- ديناميكا الغازات -->
+        <div id="popupDialog_21" class="popup" style="visibility: hidden;">
+            
+            <h3>ديناميكا الغازات</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=bcb7uZqfoQM&list=PLwYZnTL7XywADX1f_armQ4dBavBWf1xBw"><b>- إبراهيم الصيني </b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://icourse.club/uploads/files/5f36b7c4ded79bb3e90754d0f81682f7a68014be.pdf"><b>Modern Compressible Flow John D. Anderson</b></a><br>
+                        <a href="https://dokumen.pub/the-dynamics-and-thermodynamics-of-compressible-fluid-flow.html"><b>The Dynamics and Thermodynamics of Compressible Fluid Flow	Ascher H. Shapiro</b></a><br>
+                        <a href="https://dokumen.pub/gas-dynamics-5th-ed-5nbsped-8120348397-9788120348394.html"><b>Gas Dynamics	E. Rathakrishnan</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop21()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/غازات.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+                <!-- تحويل الطاقة -->
+        <div id="popupDialog_22" class="popup" style="visibility: hidden;">
+            
+            <h3>تحويل الطاقة</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/lg176wmn90j4kie/%25D8%25B3%25D9%2584%25D8%25A7%25D9%258A%25D8%25AF%25D8%25A7%25D8%25AA_%25D8%25AA%25D8%25AD%25D9%2588%25D9%258A%25D9%2584_%25D8%25A7%25D9%2584%25D8%25B7%25D8%25A7%25D9%2582%25D8%25A9.pdf/file"><b>ملخص تحويل الطاقة</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://madar-ju.com/storage/images/files/file_1738594442lICQR.pdf"><b>principles of energy conversion</b></a><br>
+                        <a href="https://api.pageplace.de/preview/DT0400.9781466584839_A30393032/preview-9781466584839_A30393032.pdf"><b>Energy Conversion	yogi</b></a><br>
+                        <a href="https://elcom-team.com/Subjects/%D9%86%D8%AD%D9%84%D9%8A%D9%84%20%D8%A7%D9%86%D8%B7%D9%85%D8%A9%20%D8%A7%D9%84%D9%82%D9%88%D9%89/power-system-analysis-book%20(5th-ed).pdf"><b>Power System Analysis and Design	J. Duncan Glover, Mulukutla S. Sarma & Thomas Overbye</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop22()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/طاقة.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+                <!-- اهتزازات ميكانيكية -->
+        <div id="popupDialog_23" class="popup" style="visibility: hidden;">
+            
+            <h3>اهتزازات ميكانيكية</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://drive.google.com/file/d/1i0nl2yFspPtEa3QDF2jWHqJAX4lYnHsZ/view?usp=drive_link"><b>دفتر د. فادي الفقس</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLATQ1dJ8nGLYPeDbxUl7J75fWev5WIEdy"><b>- حسام </b></a><br>
+                        <a href="https://www.youtube.com/watch?v=F2AtBfZsOMA&list=PLLV20d95DZpJKjhKYNzX0PKd3Wm55QnZS"><b>- لجنة الميكانيك </b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://www.researchgate.net/profile/V-T-T-Nguyen/publication/273330566_Basic_Mechanical_Vibrations/links/54fecf170cf2741b69f164f2/Basic-Mechanical-Vibrations.pdf"><b>Mechanical Vibrations	S. S. Rao</b></a><br>
+                        <a href="https://pdfcoffee.com/engineering-vibration-fourth-edition-pdf-free.html"><b>Engineering Vibration	Daniel J. Inman</b></a><br>
+                        <a href="https://pdfcoffee.com/asdfff-pdf-free.html"><b>Theory of Vibration with Applications	William T. Thomson & Marie Dillon Dahleh</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop23()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/اهتزازات.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+                <!-- محطات توليد طاقة -->
+        <div id="popupDialog_24" class="popup" style="visibility: hidden;">
+            
+            <h3>محطات توليد طاقة</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://drive.google.com/file/d/1DPfWkH1BOGTRL0z0KJZXQKpWhkiX5J1N/view?usp=drive_link"><b>ملخص محطات</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLLV20d95DZpLXoYn3ddvlwu8GjNx1Zd5b"><b>- لجنة الميكانيك </b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://dn760007.eu.archive.org/0/items/dli.ernet.476304/476304-Power%20Plant%20Engineering.pdf"><b>Power Plant Engineering	P. K. Nag</b></a><br>
+                        <a href="https://dokumen.pub/a-textbook-of-power-plant-engineering-5nbsped-9788131802557.html"><b>Power Plant Engineering	R. K. Rajput</b></a>
+                        <a href=""><b></b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop24()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/محطات.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+
+
+
+
+    </section>
+
+    <script>
+        function openPop1() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_1"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+        function openPop2() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_2"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        
+        function openPop3() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_3"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+        function openPop4() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_4"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop5() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_5"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop6() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_6"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop7() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_7"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+        function openPop9() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_9"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+        function openPop10() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_10"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        
+        function openPop11() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_11"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+        function openPop12() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_12"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop13() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_13"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop14() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_14"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop15() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_15"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop16() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_16"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+        function openPop17() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_17"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+        function openPop18() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_18"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        
+        function openPop19() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_19"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+        function openPop20() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_20"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop21() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_21"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop22() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_22"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop23() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_23"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop24() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_24"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+    </script>
+
+
+</body>
+</html>

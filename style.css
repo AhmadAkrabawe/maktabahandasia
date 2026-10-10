@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: "Readex Pro", sans-serif;
+    color: #3f484f;
+
+}
+
+header{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 100;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    top: 0;
+
+}
+
+header i{
+    font-size: 30px;
+    transition: transform 2s;
+
+
+}
+
+header i:hover{
+    transform: rotate(180deg);
+}
+
+.hero{
+    min-height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("img/df110b219be415bd913aa3387faa2552.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.category{
+    display: flex;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 170px;
+    margin: 20px 10px;
+
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.suc1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.suc2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.suc-basics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+.card{
+    text-align: center;
+    background-color: white;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    margin-top: 10px;  
+
+}
+
+
+.card i{
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card:hover{
+    background-color: #0c1d31;
+    cursor: pointer;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #3f484f ;
+}
+
+
+.popup{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            align-items: center;
+
+}
+
+.box_content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.popup h3{
+    text-align: center;
+    color: #0c1d31;
+    margin-bottom: 20px;
+}
+
+.close-btn{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+
+.close-btn:hover{
+    background-color: rgb(179, 0, 0);
+    cursor: pointer;
+}
+
+.left_content img{
+    width: 100px;
+}
+

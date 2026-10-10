@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <a href="http://127.0.0.1:5500/index.html">
+            <img src="img/Untitled-1.png" alt="" class="logo">
+        </a>      
+        <div class="category">
+            <i class="fa-solid fa-flask"></i>
+            <h2>الهندسة الكيميائية</h2>
+        </div>
+    </header>
+
+    <section class="suc-basics">
+        
+            <div class="card" onclick="openPop1()">
+                <i class="fa-solid fa-industry"></i><br>
+                <span>مبادئ الهندسة الكيميائية</span>
+            </div>
+
+            <div class="card" onclick="openPop2()">
+                <i class="fa-solid fa-right-left"></i><br>
+                <span>توازنات</span>
+            </div>
+
+            <div class="card" onclick="openPop3()">
+                <i class="fa-solid fa-vial"></i><br>
+                <span>كيمياء تحليلية</span>
+            </div>
+
+            <div class="card" onclick="openPop4()">
+                <i class="fa-solid fa-atom"></i><br>
+                <span>الكيمياء الفيزيائية</span>
+            </div>
+
+            <div class="card" onclick="openPop5()">
+                <i class="fa-solid fa-flask"></i><br>               
+                <span>الكيمياء العضوية</span>
+            </div>
+
+            <div class="card" onclick="openPop6()">
+                <i class="fa-solid fa-rotate"></i><br>
+                <span>هندسة التفاعلات الكيميائية</span>
+            </div>
+
+            <div class="card" onclick="openPop7()">
+                <i class="fa-solid fa-chart-line"></i><br>
+                <span>النمذجة والمحاكاة</span>
+            </div>
+
+            <div class="card" onclick="openPop9()">
+                <i class="fa-solid fa-arrows-left-right-to-line"></i><br>
+                <span>عمليات انتقال المادة</span>
+            </div>
+
+            <div class="card" onclick="openPop10()">
+                <i class="fa-solid fa-gears"></i><br>
+                <span>عمليات موحدة</span>
+            </div>
+
+            <div class="card" onclick="openPop11()">
+                <i class="fa-solid fa-dna"></i><br>
+                <span>هندسة العمليات الحيوية</span>
+            </div>     
+            <div class="card" onclick="openPop12()">
+                <i class="fa-solid fa-filter"></i><br>
+                <span>عمليات الفصل</span>
+            </div>     
+
+
+    </section>
+
+    <section>
+
+        <!-- مبادئ الهندسة الكيميائية -->
+        <div id="popupDialog_1" class="popup" style="visibility: hidden;">
+            <h3>مبادئ الهندسة الكيميائية</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/ijkvhi5vz2rusgw/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D9%2581%25D8%25A7%25D8%25B9%25D9%2584_%25D8%25AE%25D9%258A%25D8%25B1_%25D9%2585%25D8%25A8%25D8%25A7%25D8%25AF%25D8%25A6_%25D8%25A7%25D9%2584%25D9%2587%25D9%2586%25D8%25AF%25D8%25B3%25D8%25A9_%25D8%25A7%25D9%2584%25D9%2583%25D9%258A%25D9%2585%25D9%258A%25D8%25A7%25D8%25A6%25D9%258A%25D8%25A9_%2528%25D8%25A8%25D8%25B1%25D9%2586%25D8%25B3%25D8%25A8%25D9%2584%2529.pdf/file"><b>ملخص مبادئ كيمياء</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLp3_Wp5yLxuYkr2I6zgS5jYBcyax-FLAx"><b>- أنس أحمد</b></a><br>
+                        <a href="https://www.youtube.com/watch?v=VemJhRmATkk&list=PLPlttmAhyB4Q3hdnxcp2UIasmOjV_ql0x"><b>- زايد صالح</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://chemistry.com.pk/books/elementary-principles-of-chemical-processes-4e-felder/"><b>1- Elementary Principles of Chemical Processes — Richard M. Felder, Ronald W. Rousseau, Lisa G. Bullard</b></a><br>
+                        <a href="https://download.bibis.ir/Books/Chemistry/Chemical-Engineering/2023/Basic-Principles-and-Calculations-in-Chemical-Engineering-9th-Edition_bibis.ir.pdf"><b>2- Basic Principles and Calculations in Chemical Engineering — David M. Himmelblau, James B. Riggs</b></a><br>
+                        <a href="https://dl.icdst.org/pdfs/files1/ae44fd68aa54af0e29f1112974fd0522.pdf"><b>3- Chemical Engineering: An Introduction — Morton M. Denn</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop1()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/مبادئ.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- توازنات -->
+        <div id="popupDialog_2" class="popup" style="visibility: hidden;">
+            <h3>توازنات</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/idyw3v9ysesm5b9/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D9%2582%25D8%25B5%25D9%258A%25D8%25B1_%25D9%2584_%25D9%2585%25D8%25A7%25D8%25AF%25D8%25A9_%25D8%25A7%25D9%2584%25D8%25AA%25D9%2588%25D8%25A7%25D8%25B2%25D9%2586%25D8%25A7%25D8%25AA.pdf/file"><b>ملخص توازنات</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PL5AN263jWW_9iNhEYkq8IR9voewDgHt6M"><b>- أحمد فايز</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://chemistry.com.pk/books/elementary-principles-of-chemical-processes-4e-felder/"><b>1- Elementary Principles of Chemical Processes — Richard M. Felder, Ronald W. Rousseau, Lisa G. Bullard</b></a><br>
+                        <a href="https://download.bibis.ir/Books/Chemistry/Chemical-Engineering/2023/Basic-Principles-and-Calculations-in-Chemical-Engineering-9th-Edition_bibis.ir.pdf"><b>2- Basic Principles and Calculations in Chemical Engineering — David M. Himmelblau, James B. Riggs</b></a><br>
+                        <a href="https://elmoukrie.com/wp-content/uploads/2022/06/chemical-engineering-design-principles-practice-and-economics-of-plant-and-process-design-gavin-towler-ray-sinnott-3edition.pdf"><b>3- Material and Energy Balances for Chemical Engineers — Gavin Towler</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop2()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/توازنات.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- الكيمياء التحليلية -->
+        <div id="popupDialog_3" class="popup" style="visibility: hidden;">
+            
+            <h3>الكيمياء التحليلية</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/vximb2psqgmf1og/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D9%2584%25D9%2585%25D8%25A7%25D8%25AF%25D8%25A9__%25D8%25A7%25D9%2584%25D9%2583%25D9%258A%25D9%2585%25D9%258A%25D8%25A7%25D8%25A1_%25D8%25A7%25D9%2584%25D8%25AA%25D8%25AD%25D9%2584%25D9%258A%25D9%2584%25D9%258A%25D8%25A9.pdf/file"><b>ملخص تحليلية</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=48TVC1bf8MY&list=PL6H-waMaCjsm_1ZfUlCvRGyrM-V-ALfwK"><b>- أحمد الشرعة</b></a><br>
+                        <a href="https://www.youtube.com/watch?v=f_ItgdIrDsg&list=PLIcr-ORgzxJzRgJFRoZdwlKZDljsPw-Bx"><b>- سناء جعفر</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://nhathuocngocanh.com/wp-content/uploads/2023/09/Harris-Quantitative-Chemical-Analysis-8th-edition-nhathuocngocanh.pdf"><b>1- Quantitative Chemical Analysis — Daniel C. Harris</b></a><br>
+                        <a href="https://dl.iranchembook.ir/ebook/Analytical-Chemistry-654.pdf"><b>2- Fundamentals of Analytical Chemistry — Douglas A. Skoog, Donald M. West, F. James Holler, Stanley R. Crouch</b></a><br>
+                        <a href="https://kvmwai.edu.in/upload/StudyMaterial/Analytical-Chemistry-by-Gary-D_-Christian-Purnendu-K_-Dasgupta-Kevin-A_-Schug-z-lib_org_.pdf"><b>3- Analytical Chemistry — Gary D. Christian, Purnendu K. Dasgupta, Kevin A. Schug</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop3()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/تحليلية.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- كيمياء فيزيائية -->
+        <div id="popupDialog_4" class="popup" style="visibility: hidden;">
+            
+            <h3>كيمياء فيزيائية</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/43zk41g05nt0lzj/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D9%2581%25D9%258A%25D8%25B2%25D9%258A%25D9%2583%25D8%25A7_1.pdf/file"><b>ملخص فيزيائية</b></a><br>
+                        <a href="https://www.mediafire.com/file/g08i130lzp29xmj/Shahed_alkfaween.summary_Thermo_physical_chemistry.pdf/file"><b>ملخص شهد الكافوين</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PL7U0cJynDt05mFc3_IEDU4iFiRngxpBjz"><b>- حيدر حسن</b></a><br>
+                        <a href="https://www.youtube.com/watch?v=ooxYGusEUb4&list=PLYHaXvNA5Jrf_z0xbYhlzv0leoGBXHhll&pp=0gcJCbwFa94AFGB0"><b>- Professor Derricotte</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://chemistry.com.pk/books/atkins-physical-chemistry-12e/"><b>1- Atkins' Physical Chemistry — Peter Atkins, Julio de Paula, James Keeler</b></a><br>
+                        <a href="https://www.elearning.raghunathpurcollege.ac.in/files/F814BC5915875384820.pdf"><b>2- Physical Chemistry: A Molecular Approach — Donald A. McQuarrie, John D. Simon</b></a><br>
+                        <a href="https://repo.upertis.ac.id/1874/1/alivechem.com__Physical_Chemistry-levine.pdf"><b>3- Physical Chemistry — Ira N. Levine</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop4()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/فيزيائية.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- الكيمياء العضوية -->
+        <div id="popupDialog_5" class="popup" style="visibility: hidden;">
+            
+            <h3>الكيمياء العضوية</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/pgmpvilndzz1z3q/%25D8%25B4%25D8%25B1%25D8%25AD_%25D9%2585%25D8%25B9%25D8%25B8%25D9%2585_%25D9%2585%25D8%25A7%25D8%25AF%25D9%2587_%25D8%25A7%25D9%2584%25D9%2583%25D9%258A%25D9%2585%25D9%258A%25D8%25A7%25D8%25A1_%25D8%25A7%25D9%2584%25D8%25B9%25D8%25B6%25D9%2588%25D9%258A%25D8%25A9_%25281%2529.pdf/file"><b>ملخص كيمياء عضوية</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=P8YYgRjyr7E&list=PLqj9DBCev8DKAQMMHZs0fOpvBVKBfu8Bh"><b>- حمزة ناهض</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://theswissbay.ch/pdf/Books/STEM/Organic_Chemistry_J_Clayden_N_Greeves_S_Warren.pdf"><b>1- Organic Chemistry — Jonathan Clayden, Nick Greeves, Stuart Warren, Peter Wothers</b></a><br>
+                        <a href="https://assets.openstax.org/oscms-prodcms/media/documents/OrganicChemistry-SAMPLE_9ADraVJ.pdf"><b>2- Organic Chemistry — John McMurry</b></a><br>
+                        <a href="https://chemistry.com.pk/books/organic-chemistry-12e-solomons-fryhle-and-snyder/"><b>3- Organic Chemistry — T. W. Graham Solomons, Craig B. Fryhle, Scott A. Snyder</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop5()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/عضوية.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- هندسة التفاعلات الكيميائية -->
+        <div id="popupDialog_6" class="popup" style="visibility: hidden;">
+            
+            <h3>هندسة التفاعلات الكيميائية</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/6ewthr1klcx29zi/%25D8%25AF%25D9%2581%25D8%25AA%25D8%25B1-%25D9%2585%25D8%25A7%25D8%25AF%25D8%25A9-%25D8%25A7%25D9%2584%25D8%25B1%25D9%258A%25D8%25A7%25D9%2583%25D8%25B4%25D9%2586-%25D8%25AF%25D9%2584%25D8%25A7%25D9%2584_%25D8%25A7%25D9%2584%25D9%2585%25D8%25B5%25D8%25B1%25D9%258A-.pdf/file"><b>ملخص دلال المصري</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=YavXTmTCloU&list=PLsMqqnwcpPfRBFA9UNAFzcgJgeoLJMeBS"><b>- M El-Khaiary</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://madar-ju.com/storage/images/files/file_1738588074Np08H.pdf"><b>1- Elements of Chemical Reaction Engineering — H. Scott Fogler</b></a><br>
+                        <a href="https://ia802800.us.archive.org/12/items/dli.bengal.10689.12209/10689.12209.pdf"><b>2- Chemical Reaction Engineering — Octave Levenspiel</b></a><br>
+                        <a href="https://pdfcoffee.com/chemical-engineering-kinetics-by-j-m-smith-pdf-free.html"><b>3- Chemical Engineering Kinetics — J. M. Smith</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop6()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/هندسةتفاعلات.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- النمذجة والمحاكاة -->
+        <div id="popupDialog_7" class="popup" style="visibility: hidden;">
+            
+            <h3>النمذجة والمحاكاة</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/lbc1yv0v7s1drie/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D9%2586%25D9%2585%25D8%25B0%25D8%25AC%25D8%25A9_%25D9%2588%25D9%2585%25D8%25AD%25D8%25A7%25D9%2583%25D8%25A7%25D8%25A9.pdf/file"><b>ملخص نمذجة ومحاكاة</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLsMqqnwcpPfS5HWyOxAQFb7EzJaVMgsTR"><b>- M El-Khaiary</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://ies.ipsacademy.org/wp-content/uploads/2020/03/Mcgraw-Hill-Process-Modelling-Simulation-And-Control-For-Chemical-Engineers-Re-Distilled.pdf"><b>1- Process Modeling, Simulation, and Control for Chemical Engineers — William L. Luyben</b></a><br>
+                        <a href="https://dl.icdst.org/pdfs/files1/684878aed95e94200e32adaca2bb033b.pdf"><b>2- Introduction to Chemical Engineering Computing — Bruce A. Finlayson</b></a><br>
+                        <a href="https://dokumen.pub/chemical-engineering-process-simulation-2nbsped-9780323901680.html"><b>3- Chemical Process Simulation — W. F. Ramirez</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop7()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/نمذجة.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- عمليات انتقال المادة -->
+        <div id="popupDialog_9" class="popup" style="visibility: hidden;">
+            
+            <h3>عمليات انتقال المادة</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLGED90Y_uL1IMEMmqzbV0VdzBPh-jfxC1"><b>- محمد</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://archive.org/details/cftri.19584masstransferoper0000robe_s5e2/page/246/mode/2up"><b>1- Mass-Transfer Operations — Robert E. Treybal</b></a><br>
+                        <a href="https://elmoukrie.com/wp-content/uploads/2022/04/transport-processes-and-unit-operations-third-edition-christie-j.-geankoplis-z-lib.org_.pdf"><b>2- Transport Processes and Separation Process Principles — Christie J. Geankoplis</b></a><br>
+                        <a href="https://ia600401.us.archive.org/8/items/B.KDutta/B.K%20Dutta.pdf"><b>3- Principles Of Mass Transfer And Separation Process</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop9()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/عملياتانتقال.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- عمليات موحدة -->
+        <div id="popupDialog_10" class="popup" style="visibility: hidden;">
+            
+            <h3>عمليات موحدة</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLNrp__pFCiKZpH5lc_qzaIrPOr8GufjVk"><b>- هندسة كيميائية بسيطة</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://evsujpiche.wordpress.com/wp-content/uploads/2014/06/unit-operations-of-chemical-engineering-5th-ed-mccabe-and-smith.pdf"><b>1- Unit Operations of Chemical Engineering — Warren L. McCabe, Julian C. Smith, Peter Harriott</b></a><br>
+                        <a href="https://elmoukrie.com/wp-content/uploads/2022/04/transport-processes-and-unit-operations-third-edition-christie-j.-geankoplis-z-lib.org_.pdf"><b>2- Transport Processes and Separation Process Principles — Christie J. Geankoplis</b></a><br>
+                        <a href="https://uodiyala.edu.iq/uploads/PDF%20ELIBRARY%20UODIYALA/EL94/Coulson%20&%20Richardson's%20Chemical%20Engineering%20-%20Volume%20II.pdf"><b>3- Coulson & Richardson's Chemical Engineering, Volume 2: Particle Technology and Separation Processes </b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop10()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/موحدة.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- هندسة العمليات الحيوية -->
+        <div id="popupDialog_11" class="popup" style="visibility: hidden;">
+            
+            <h3>هندسة العمليات الحيوية</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLdL4o_wZOIdmKipRZx5GwmV_tDV7Jybuw"><b>- شهد زعيتر</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://dl.icdst.org/pdfs/files4/b22084befc3006eb180f258c54e240ba.pdf"><b>1- Bioprocess Engineering Principles — Pauline M. Doran</b></a><br>
+                        <a href="https://pdfcoffee.com/james-e-bailey-david-f-ollis-biochemical-engineering-fundamentals-mcgraw-hill-education-1986-4-pdf-free.html"><b>2- Biochemical Engineering Fundamentals — James E. Bailey, David F. Ollis</b></a><br>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop11()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/هندسةعمليات.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+        
+        <!-- عمليات الفصل -->
+        <div id="popupDialog_12" class="popup" style="visibility: hidden;">
+            
+            <h3>عمليات الفصل</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLAW5JvTBWzdxK8nKuGn_bLw93HcnTPhAv"><b>- الهندسة الكيميائية</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://madar-ju.com/storage/images/files/file_1738183972cY9Rl.pdf"><b>1- Separation Process Engineering — Phillip C. Wankat</b></a><br>
+                        <a href="https://thestemtutor.org/wp-content/uploads/2024/10/J.-D.-Seader-Ernest-J.-Henley-D.-Keith-Roper-Separation-Process-Principles-_-Chemical-and-Biochemical-Operations-Third-Edition-John-Wiley-Sons-2010.pdf"><b>2- Separation Process Principles — J. D. Seader, Ernest J. Henley, D. Keith Roper</b></a><br>
+                        <a href="https://pdfcoffee.com/separation-processesjudson-king-5-pdf-free.html"><b>3- Separation Processes — C. J. King</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop12()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/عملياتفصل.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+
+
+
+    </section>
+
+    <script>
+        function openPop1() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_1"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+        function openPop2() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_2"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        
+        function openPop3() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_3"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+        function openPop4() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_4"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop5() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_5"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop6() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_6"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop7() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_7"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop9() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_9"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop10() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_10"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop11() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_11"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop12() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_12"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <a href="http://127.0.0.1:5500/index.html">
+            <img src="img/Untitled-1.png" alt="" class="logo">
+        </a>       
+        <div class="category">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h2>العلوم الأساسية</h2>
+        </div>
+    </header>
+
+    <section class="suc-basics">
+        
+            <div class="card" onclick="openPop1()">
+                <i class="fa-solid fa-square-root-variable"></i>                    <br>
+                <span>كالكولاس 1</span>
+            </div>
+
+            <div class="card" onclick="openPop2()">
+                <i class="fa-solid fa-square-root-variable"></i>                    <br>
+                <span>كالكولاس 2</span>
+            </div>
+
+            <div class="card" onclick="openPop3()">
+                <i class="fa-solid fa-atom"></i>                <br>
+                <span>فيزياء 1</span>    
+            </div>
+
+            <div class="card" onclick="openPop4()">
+                <i class="fa-solid fa-atom"></i>                <br>
+                <span>فيزياء 2</span>    
+            </div>
+            <div class="card" onclick="openPop5()">
+                <i class="fa-solid fa-flask"></i>                <br>
+                <span>كيمياء عامة</span>    
+            </div>
+            <div class="card" onclick="openPop6()">
+                <i class="fa-solid fa-calculator"></i> <br>
+                <span>إحصاء واحتمالات</span>    
+            </div>
+            <div class="card" onclick="openPop7()">
+                <i class="fa-solid fa-superscript"></i>               <br>
+                <span>معادلات تفاضلية عادية</span>    
+            </div>
+            <div class="card" onclick="openPop8()">
+                <i class="fa-solid fa-superscript"></i>                <br>
+                <span>رياضيات تطبيقية للمهندسين</span>    
+            </div>
+
+
+    </section>
+
+    <section>
+
+        <!-- كالك 1 -->
+        <div id="popupDialog_1" class="popup" style="visibility: hidden;">
+            <h3>كالكولاس 1</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/folder/m160iq2j6jcop/calculus?fbclid=IwY2xjawU3DgFleHRuA2FlbQIxMABwZG9mBXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR435bHYZUn1npr0dx9CtxfRuGHw05he8xRH5IHILXQQsmZv-06Vf6-iVWnacg_aem_okNijcG9vxYk9B8_CRotUQ#28pzmw0co048a"><b>ملخص كالكولاس 1</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLSr-OUj6vInvJL5SXMDPjhrg0YEg3ysng"><b>- شرح د.كامل فليفل</b></a>
+                        <br>
+                        ● كتب:
+                        <br>
+                        <a href="https://3lihandam69.wordpress.com/wp-content/uploads/2018/10/calculus-10th-edition-anton.pdf"><b>1- Calculus 10th Edition anton</b></a><br>
+                        <a href="https://rodrigopacios.github.io/mrpacios/download/Thomas_Calculus.pdf"><b>2- Thomas' Calculus — George B. Thomas</b></a><br>
+                        <a href="https://dzackgarza.com/assets/books/Stewart.pdf"><b>3- Calculus: Early Transcendentals — James Stewart</b></a>
+                    </p>
+                    <br>
+                    <button onclick="openPop1()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/51hCBHFe3rL._AC_UF1000,1000_QL80_.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- كاللك 2 -->
+        <div id="popupDialog_2" class="popup" style="visibility: hidden;">
+            <h3>كالكولاس 2</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/85fj5k6xsiabofa/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D8%25B9%25D8%25B6%25D9%2588_%25D8%25A7%25D9%2584%25D8%25A7%25D8%25AA%25D8%25AD%25D8%25A7%25D8%25AF_%25D8%25B4%25D9%2587%25D8%25AF_%25D8%25A7%25D9%2584%25D9%2583%25D9%2581%25D8%25A7%25D9%2588%25D9%258A%25D9%2586_%25D9%2583%25D8%25A7%25D9%2584%25D9%2583%25D9%2588%25D9%2584%25D8%25B32.pdf/file"><b>كلخص شهد الكفاوين</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLSr-OUj6vInu6gHD6q3LBd5jP-3LWuWtc"><b>- شرح د.كامل فليفل</b></a>
+                        <br>
+                        ● كتب:  
+                        <br>
+                        <a href="https://3lihandam69.wordpress.com/wp-content/uploads/2018/10/calculus-10th-edition-anton.pdf"><b>1- Calculus 10th Edition anton</b></a><br>
+                        <a href="https://rodrigopacios.github.io/mrpacios/download/Thomas_Calculus.pdf"><b>2- Thomas' Calculus — George B. Thomas</b></a><br>
+                        <a href="https://dzackgarza.com/assets/books/Stewart.pdf"><b>3- Calculus: Early Transcendentals — James Stewart</b></a>
+                    </p>
+                    <br>
+                    <button onclick="openPop2()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/51hCBHFe3rL._AC_UF1000,1000_QL80_.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- فيزياء 1 -->
+        <div id="popupDialog_3" class="popup" style="visibility: hidden;">
+            
+            <h3>فيزياء 1</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/wn5oy7mkeqhh8vt/%2528%25D8%25AF%25D9%2581%25D8%25AA%25D8%25B1_%25D8%25A7%25D9%2584%25D9%2585%25D8%25A7%25D8%25AF%25D8%25A9_%2528%25D8%25A7%25D9%2584%25D8%25B7%25D8%25A7%25D9%2584%25D8%25A8_%25D8%25B9%25D8%25A8%25D8%25A7%25D8%25AF%25D8%25A9_%25D8%25A7%25D9%2584%25D8%25A7%25D8%25AE%25D8%25B1%25D8%25B3.pdf/file"><b>دفتر عبادة الأخرس</b></a><br>
+                        <a href="https://www.mediafire.com/file/c1o9aokr0rwied7/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D8%25A7%25D9%2584%25D8%25A7%25D8%25AA%25D8%25AD%25D8%25A7%25D8%25AF_%25D8%25A7%25D9%2584%25D8%25AB%25D8%25A7%25D9%2586%25D9%258A_%25D9%2581%25D9%258A%25D8%25B2%25D9%258A%25D8%25A7_101.pdf/file"><b>ملخص الاتحاد</b></a><br>
+                        <a href="https://www.mediafire.com/file/g9kv7o3e07j9m0x/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D9%2581%25D9%258A%25D8%25B2%25D9%258A%25D8%25A7_%25D9%25A1%25D9%25A0%25D9%25A1.pdf/file"><b>ملخص فيزياء 101</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLBGoaHUIAOFMxNZJbw_TVohntL5mM1jn9"><b>- شرح زايد البشتاوي</b></a>
+                        <a href="https://www.youtube.com/playlist?list=PLWrUU7ljKR0RzX_CTA4cmjVrcqUj0ocD5"><b>- شرح Afkar Academy</b></a>
+                        <a href="https://www.youtube.com/playlist?list=PLxRkgs4bYI6_CQSgywl7YKsjI6HT_8blD"><b>- شرح د.أحمد عوض</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://physics.fe.uni-lj.si/publications/pdf/Serway_Physics_for_Scientists_Engineers_Modern%20Physics_9th%20Ed_Serway_Jewett.pdf"><b>1- Physics for Scientists & Engineers & Modern Physics, 9th Ed</b></a><br>
+                        <a href="https://dl.icdst.org/pdfs/files4/39e1817b05cf155433309dbb2f3289fe.pdf"><b>2- Fundamentals of Physics — Halliday, Resnick & Walker</b></a><br>
+                        <a href="https://kdl.kogistate.gov.ng/wp-content/uploads/2023/08/Hugh-D.-Young-Roger-A.-Freedman-A.-Lewis-Ford-University-Physics-with-Modern-Physics-with-MasteringPhysics%C2%AE-13th-Edition-Addison-Wesley-2011.pdf"><b>3- University Physics with Modern Physics — Young & Freedman</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop3()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/images.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- فيزياء 2 -->
+        <div id="popupDialog_4" class="popup" style="visibility: hidden;">
+            
+            <h3>فيزياء 2</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/9xgd73hyak61600/%25D8%25AF%25D9%2581%25D8%25AA%25D8%25B1_%25D8%25A7%25D9%2584%25D8%25AF%25D9%2583%25D8%25AA%25D9%2588%25D8%25B1%25D8%25A9_%25D9%2588%25D8%25B3%25D9%2586_%25D9%2583%25D8%25A7%25D8%25B8%25D9%2585_%25D9%2584%25D9%2585%25D8%25A7%25D8%25AF%25D8%25A9_%25D8%25A7%25D9%2584%25D9%2581%25D9%258A%25D8%25B2%25D9%258A%25D8%25A7_2.pdf/file"><b>دفتر د. وسن</b></a><br>
+                        <a href="https://www.mediafire.com/file/zt7tppgbt02cj0p/%25D8%25AF%25D9%2581%25D8%25AA%25D8%25B1_%25D8%25A7%25D9%2584%25D9%2585%25D8%25A7%25D8%25AF%25D8%25A9_%2528%25D8%25A7%25D9%2584%25D8%25B7%25D8%25A7%25D9%2584%25D8%25A8_%25D8%25B9%25D8%25A8%25D8%25A7%25D8%25AF%25D8%25A9_%25D8%25A7%25D9%2584%25D8%25A7%25D8%25AE%25D8%25B1%25D8%25B3%2529.pdf/file"><b>دفتر عبادة الأخرس</b></a><br>
+                        <a href="https://www.mediafire.com/file/8nwa5ach903yi21/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D8%25A7%25D9%2584%25D8%25A7%25D8%25AA%25D8%25AD%25D8%25A7%25D8%25AF_%25D9%2584%25D9%2585%25D8%25A7%25D8%25AF%25D8%25A9_%25D8%25A7%25D9%2584%25D9%2581%25D9%258A%25D8%25B2%25D9%258A%25D8%25A7%25D8%25A1_%25D8%25A7%25D9%2584%25D8%25B9%25D8%25A7%25D9%2585%25D8%25A9_2_.pdf/file"><b>ملخص الاتحاد</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        
+                        <a href="https://www.youtube.com/playlist?list=PLFUszXtJ26-4IqJIQrOQm0sW0YYqb-WVQ"><b>- شرح د.أحمد عوض</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://physics.fe.uni-lj.si/publications/pdf/Serway_Physics_for_Scientists_Engineers_Modern%20Physics_9th%20Ed_Serway_Jewett.pdf"><b>1- Physics for Scientists & Engineers & Modern Physics, 9th Ed</b></a><br>
+                        <a href="https://dl.icdst.org/pdfs/files4/39e1817b05cf155433309dbb2f3289fe.pdf"><b>2- Fundamentals of Physics — Halliday, Resnick & Walker</b></a><br>
+                        <a href="https://kdl.kogistate.gov.ng/wp-content/uploads/2023/08/Hugh-D.-Young-Roger-A.-Freedman-A.-Lewis-Ford-University-Physics-with-Modern-Physics-with-MasteringPhysics%C2%AE-13th-Edition-Addison-Wesley-2011.pdf"><b>3- University Physics with Modern Physics — Young & Freedman</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop4()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/images.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- كيمياء عامة -->
+        <div id="popupDialog_5" class="popup" style="visibility: hidden;">
+            
+            <h3>كيمياء عامة</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/gr5c2wtj33xlk4s/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D8%25A7%25D9%2584%25D8%25A7%25D8%25AA%25D8%25AD%25D8%25A7%25D8%25AF_%25D8%25A7%25D9%2584%25D8%25AB%25D8%25A7%25D9%2586%25D9%258A_%25D9%2584%25D9%2585%25D8%25A7%25D8%25AF%25D8%25A9_%25D8%25A7%25D9%2584%25D9%2583%25D9%258A%25D9%2585%25D9%258A%25D8%25A7%25D8%25A1_%25D8%25A7%25D9%2584%25D8%25B9%25D8%25A7%25D9%2585%25D8%25A9.pdf/file"><b>ملخص الاتحاد</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLqj9DBCev8DL18IetJS8wuDDRC2i730vL"><b>- شرح حمزة ناهض</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://aisyahfitrirusianijisman.wordpress.com/wp-content/uploads/2018/03/raymond_chang_general_chemistry_the_essential_cbookos-org.pdf"><b>1- General Chemistry: The Essential Concepts</b><br>
+                        <a href="https://ghostwriter144.neocities.org/img/scienceChemistryTheCentralScience12th.pdf"><b>2- Chemistry: The Central Science — Brown, LeMay</b><br>
+                        <a href="https://aisyahfitrirusianijisman.wordpress.com/wp-content/uploads/2018/03/brady.pdf"><b>3- General chemistry : principles and structure Brady</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop5()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/كيمياء.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- إحصاء واحتمالات -->
+        <div id="popupDialog_6" class="popup" style="visibility: hidden;">
+            
+            <h3>إحصاء واحتمالات</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/qbxmujk4lb53nnt/%25D8%25AF%25D9%2588%25D8%25B3%25D9%258A%25D8%25A9_%25D8%25AF._%25D9%2585%25D8%25AD%25D9%2585%25D8%25AF_%25D9%2581%25D8%25A4%25D8%25A7%25D8%25AF_%2528%25D9%2584%25D8%25AD%25D8%25B5%25D8%25A7%25D8%25A1%2529.pdf/file"><b>د.محمد فؤاد</b></a><br>
+                        <a href="https://www.mediafire.com/file/pcb5fein6z3lixs/%25D8%25AF%25D9%2588%25D8%25B3%25D9%258A%25D8%25A9_%25D8%25AF.%25D9%2585%25D8%25A3%25D9%2585%25D9%2588%25D9%2586_%25D8%25A7%25D8%25AD%25D8%25B5%25D8%25A7%25D8%25A1.pdf/file"><b>د.محمد مأمون</b></a><br>
+                        <a href="https://www.mediafire.com/file/zmuapvbvu62njes/%25D8%25AF%25D9%2581%25D8%25AA%25D8%25B1_%25D8%25A5%25D8%25AD%25D8%25B5%25D8%25A7%25D8%25A1_%25D8%25AF.%25D8%25BA%25D8%25A7%25D9%2584%25D8%25A8_%2528_%25D9%2581%25D8%25A7%25D8%25B9%25D9%2584_%25D8%25AE%25D9%258A%25D8%25B1%2529.pdf/file"><b>د.غالب</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        
+                        <a href="https://www.youtube.com/playlist?list=PLFUszXtJ26-7Lox-o7iM7J-5SfSrsESsz"><b>- شرح د.محمد فؤاد</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://kolegite.com/EE_library/books_and_lectures/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/Douglas%20C.%20Montgomery%2C%20George%20C.%20Runger%20-%20Applied%20Statistics%20and%20Probability%20for%20Engineers-Wiley%20%282018%29.pdf"><b>1- Applied Statistics and Probability for Engineers, 7th Edition</b></a><br>
+                        <a href="https://3lihandam69.wordpress.com/wp-content/uploads/2015/10/william_mendenhall_robert_j-_beaver_barbara_m-_bookfi-org.pdf"><b>2- Introduction to Probability and Statistics — William Mendenhall</b></a>
+                    </p>
+                    <br>
+                    <button onclick="openPop6()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/إحصاء.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- معادلات تفاضلية -->
+        <div id="popupDialog_7" class="popup" style="visibility: hidden;">
+            
+            <h3>معادلات تفاضلية عادية</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/az96tmyr1woqjy2/%25D9%2585%25D9%2584%25D8%25AE%25D8%25B5_%25D8%25AF%25D9%258A%25D9%2581..pdf/file"><b>ملخص معادلات تفاضلية</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        
+                        <a href="https://www.youtube.com/playlist?list=PLp1pnSnaaByKop5r1vuDkmHpzszdPomJQ"><b>- شرح د.عبداللطيف يوسف</b></a><br>
+                        <a href="https://www.youtube.com/playlist?list=PLg3H6cDluryzg_I9oI3GvjQMFAL_qHCCT"><b>- شرح د.غالب جمعة</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://scienceclopedia.wordpress.com/wp-content/uploads/2019/09/william-e.-boyceelementary-differential-equations-and-boundary-value-problems-wiley-2017.pdf"><b>1- Elementary Differential Equations and Boundary Value Problems</b></a><br>
+                        <a href="https://dokumen.pub/differential-equations-with-boundary-value-problems-international-metric-edition-9.html"><b>2- Differential Equations with Boundary-Value Problems — Dennis G. Zill</b><br>
+                        <a href="https://ndl.ethernet.edu.et/server/api/core/bitstreams/97c217fa-5676-4e9c-a51a-472f478a0cfa/content"><b>3- Differential Equations and Linear Algebra — Stephen W. Goode & Scott A. Annin</b></a>
+                    </p>
+                    <br>
+                    <button onclick="openPop7()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/معادلات.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- رياضيات تطبيقية -->
+        <div id="popupDialog_8" class="popup" style="visibility: hidden;">
+            
+            <h3>رياضيات تطبيقية للمهندسين</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        
+                        <a href="https://www.youtube.com/playlist?list=PLin-qE531ul6m-fz7N8MoV8Z8eEfXk8Mv"><b>- شرح أحمد العبلي</b></a><br>
+                        <a href="https://www.youtube.com/playlist?list=PLAa_cnewgOoyrbB7ZDkFRrr6uuXIqpDzT"><b>- شرح ماجد الصمادي</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://www.mediafire.com/file/es7mnski80uxe7v/%25D9%2583%25D8%25AA%25D8%25A7%25D8%25A8_%25D9%2585%25D8%25A7%25D8%25AF%25D8%25A9_%25D8%25A7%25D9%2584%25D8%25B1%25D9%258A%25D8%25A7%25D8%25B6%25D9%258A%25D8%25A7%25D8%25AA_%25D8%25A7%25D9%2584%25D8%25AA%25D8%25B7%25D8%25A8%25D9%258A%25D9%2582%25D9%258A%25D8%25A9_%25D9%2584%25D9%2584%25D9%2585%25D9%2587%25D9%2586%25D8%25AF%25D8%25B3%25D9%258A%25D9%2586.pdf/file"><b>1- elementary applied partial differential equations</b></a><br>
+                        <a href="https://dl.icdst.org/pdfs/files/d5553fea9f38f42ff4d7ffce06ad4844.pdf"><b>2- Advanced Engineering Mathematics — Erwin Kreyszig</b><br>
+                        <a href="https://www.astrosen.unam.mx/~aceves/Metodos/ebooks/riley_hobson_bence.pdf"><b>3- Mathematical Methods for Physics and Engineering — K. F. Riley, M. P. Hobson & S. J. Bence</b></a>
+                    </p>
+                    <br>
+                    <button onclick="openPop8()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/رياضيات.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+
+
+
+
+    </section>
+
+    <script>
+        function openPop1() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_1"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+        function openPop2() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_2"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        
+        function openPop3() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_3"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+        function openPop4() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_4"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop5() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_5"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop6() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_6"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop7() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_7"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop8() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_8"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+    </script>
+
+
+</body>
+</html>
