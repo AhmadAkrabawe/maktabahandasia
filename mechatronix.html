@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <a href="http://127.0.0.1:5500/index.html">
+            <img src="img/Untitled-1.png" alt="" class="logo">
+        </a>
+        <div class="category">
+            <i class="fa-solid fa-robot"></i>
+            <h2>ميكاترونكس</h2>
+        </div>
+    </header>
+
+    <section class="suc-basics">
+        
+        <div class="card" onclick="openPop1()">
+            <i class="fa-solid fa-gears"></i><br>
+            <span>أجهزة الحاكمات المنطقية المبرمجة وبرمجتها (PLC)</span>
+        </div>
+
+        <div class="card" onclick="openPop2()">
+            <i class="fa-solid fa-tower-broadcast"></i><br>
+            <span>المجسات والمشغلات</span>
+        </div>
+
+        <div class="card" onclick="openPop3()">
+            <i class="fa-solid fa-screwdriver-wrench"></i><br>
+            <span>مكونات الآلة</span>
+        </div>
+
+        <div class="card" onclick="openPop4()">
+            <i class="fa-solid fa-robot"></i><br>
+            <span>ديناميكا الروبوتات</span>
+        </div>
+
+        <div class="card" onclick="openPop5()">
+            <i class="fa-solid fa-sliders"></i><br>
+            <span>تحكم آلي</span>
+        </div>
+
+        <div class="card" onclick="openPop6()">
+            <i class="fa-solid fa-bolt"></i><br>
+            <span>إلكترونيات القدرة</span>
+        </div>
+
+        <div class="card" onclick="openPop7()">
+            <i class="fa-solid fa-gauge-high"></i><br>
+            <span>القيادة الكهربائية</span>
+        </div>
+
+        <div class="card" onclick="openPop8()">
+            <i class="fa-solid fa-shield-halved"></i><br>
+            <span>أجهزة الحماية والتحكم</span>
+        </div>
+
+        <div class="card" onclick="openPop9()">
+            <i class="fa-solid fa-industry"></i><br>
+            <span>الماكينات المحوسبة الرقمية (CNC)</span>
+        </div>
+
+        <div class="card" onclick="openPop10()">
+            <i class="fa-solid fa-gauge"></i><br>
+            <span>القيادة الرئوية والهيدروليكية</span>
+        </div>
+
+        <div class="card" onclick="openPop11()">
+            <i class="fa-solid fa-desktop"></i><br>
+            <span>التحكم الإشرافي والتقاط البيانات (SCADA)</span>
+        </div>
+
+        <div class="card" onclick="openPop12()">
+            <i class="fa-solid fa-image"></i><br>
+            <span>الصور الرقمية</span>
+        </div>
+
+
+    </section>
+
+    <section>
+
+        <!-- أجهزة الحاكمات المنطقية المبرمجة وبرمجتها (PLC) -->
+        <div id="popupDialog_1" class="popup" style="visibility: hidden;">
+            <h3>أجهزة الحاكمات المنطقية المبرمجة وبرمجتها (PLC)</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLGc5yhl36AZp3WmdbH8AP0R8y6vENH9ke"><b>- TECH Palace</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://www.scribd.com/document/706248856/Programmable-Logic-Controllers-by-Frank-D-Petruzella"><b>1-Programmable Logic Controllers — Frank D. Petruzella</b></a><br>
+                        <a href="https://www.researchgate.net/profile/Utkal-Mehta/post/Can_you_suggest_me_any_PLC_simulator/attachment/59d6256779197b8077983b82/AS%3A317531342999552%401452716779444/download/%28eBook%29++PLC+Programming+Methods+%282%29.pdf"><b>2-Programmable Logic Controllers: Programming Methods and Applications — John R. Hackworth & Frederick D. Hackworth Jr.</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop1()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/plc.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- المجسات والمشغلات -->
+        <div id="popupDialog_2" class="popup" style="visibility: hidden;">
+            <h3>المجسات والمشغلات</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLkRrMxJ7e5gXq3Uh-pJ3bmuOUN4BQwBr3"><b>- Maher Salem</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://dl.ojocv.gov.et/admin_/book/Sensors%20and%20actuators%20_%20control%20systems%20instrumentation%20%28%20PDFDrive%20%29.pdf"><b>1-Sensors and Actuators: Engineering System Instrumentation — Clarence W. de Silva</b></a><br>
+                        <a href="https://pdfcoffee.com/measurement-systemse-o-doebelin-and-d-n-manik-pdf-free.html"><b>2-Measurement Systems: Application and Design — Ernest O. Doebelin & Dhanesh N. Manik</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop2()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/مجسات.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- مكونات الآلة -->
+        <div id="popupDialog_3" class="popup" style="visibility: hidden;">
+            
+            <h3>مكونات الآلة</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://www.mechfamily-ju.com/storage/images/files/file_1731443577xeDvd.pdf"><b>1-Shigley's Mechanical Engineering Design — Richard G. Budynas & J. Keith Nisbett</b></a><br>
+                        <a href="https://ftp.idu.ac.id/wp-content/uploads/ebook/tdg/DESIGN%20SISTEM%20DAYA%20GERAK/Machine%20Elements%20in%20Mechanical%20Design.pdf"><b>2-Machine Elements in Mechanical Design — Robert L. Mott</b></a><br>
+                        <a href="https://gearkade.com/Gearkade%20content/Books/Fundamentals%20of%20Machine%20Component%20Design.pdf"><b>3-Fundamentals of Machine Component Design — Juvinall & Marshek</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop3()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/مكوناتآلة.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- ديناميكا الروبوتات -->
+        <div id="popupDialog_4" class="popup" style="visibility: hidden;">
+            
+            <h3>ديناميكا الروبوتات</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=gQlaatNGYAE&list=PL1xqdqtd6lFVtcpYt3O-xoRYlxx413ywc"><b>- Instrument Tech</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://nibmehub.com/opac-service/pdf/read/Robotics%20Modelling-%20Planning%20and%20Control%20by%20Bruno%20Siciliano-.pdf"><b>1-Robotics: Modelling, Planning and Control — Bruno Siciliano et al.</b></a><br>
+                        <a href="https://www.researchgate.net/profile/Mohamed_Mourad_Lafifi/post/How_to_avoid_singular_configurations/attachment/59d6361b79197b807799389a/AS%3A386996594855942%401469278586939/download/Spong+-+Robot+modeling+and+Control.pdf"><b>2-Robot Modeling and Control — Mark W. Spong, Seth Hutchinson & M. Vidyasagar</b></a><br>
+                        <a href="https://marsuniversity.github.io/ece387/Introduction-to-Robotics-Craig.pdf"><b>3-Introduction to Robotics: Mechanics and Control — John J. Craig</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop4()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/ديناميكاروبوتات.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- تحكم آلي -->
+        <div id="popupDialog_5" class="popup" style="visibility: hidden;">
+            
+            <h3>تحكم آلي</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href="https://drive.google.com/file/d/1fCeZ0Ogx2Kdw_NhVG0q8pUpKyfW45uqi/view?usp=drive_link"><b>دفتر د.فادي</b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLoTIA3troNRmt8xj8qjixVDeHxeurlBju"><b>- د.فادي الفقس</b></a><br>
+                        <a href="https://www.youtube.com/playlist?list=PLpsERNTNcD-6S7q2yiau-crbmmRQWDc4H"><b>- احمد ابو كوش</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://koracademy.com/sites/default/files/inline-files/norman%20nise.pdf"><b>Control Systems Engineering Norman S. Nise</b></a><br>
+                        <a href="https://mechfamily-ju.com/storage/images/files/file_17314308026pQTy.pdf"><b>Modern Control Engineering Katsuhiko Ogata</b></a><br>
+                        <a href="https://controltheorymaster.wordpress.com/wp-content/uploads/2017/11/farid-golnaraghi-benjamin-c-kuo-automatic-control-systems.pdf"><b>Automatic Control Systems	Benjamin C. Kuo & Farid Golnaraghi</b></a>
+                    </p>
+                    <br>
+                    <button onclick="openPop5()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/تحكم.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- إلكترونيات القدرة -->
+        <div id="popupDialog_6" class="popup" style="visibility: hidden;">
+            
+            <h3>إلكترونيات القدرة</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=6MQfId_-yX0&list=PL4Itv3LsZJuxctb6U8uFfMWns1E7bvmO0"><b>- Spark Team</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://elcom-team.com/Subjects/power%20electronics/%D8%A7%D9%84%D9%83%D8%AA%D8%A8%20%D9%88%20%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%84/power%20electronics%203rd%20ed.pdf"><b>1-Power Electronics: Converters, Applications, and Design — Ned Mohan, Tore M. Undeland & William P. Robbins</b></a><br>
+                        <a href="https://koracademy.com/sites/default/files/inline-files/Power%20Electronics%2CDaniel%20W.%20Hart.pdf"><b>2-Power Electronics — Daniel W. Hart</b></a><br>
+                        <a href="https://elcom-team.com/Subjects/power%20electronics/%D8%A7%D9%84%D9%83%D8%AA%D8%A8%20%D9%88%20%D8%A7%D9%84%D8%AD%D9%84%D9%88%D9%84/power-electro-reference-book-(4th-ed).pdf"><b>3-Power Electronics: Circuits, Devices, and Applications — Muhammad H. Rashid</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop6()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/إلكترونياتقدرة.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- القيادة الكهربائية -->
+        <div id="popupDialog_7" class="popup" style="visibility: hidden;">
+            
+            <h3>القيادة الكهربائية</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLFW6lRTa1g83sIfVY1p1xGqPGYUmXyahx"><b>- IIT KANPUR-NPTEL</b></a>
+                        <a href="https://www.youtube.com/playlist?list=PLk_us2kvnmO6I9H_1WaGhHCgATwImKOm6"><b>- Dr. Ahmad Al-Subhi</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://mrasdstore.weebly.com/uploads/2/4/1/8/24182730/electric_drivesbook_2003edition_ned_mohan.pdf"><b>1-Electric Drives — Ned Mohan</b></a><br>
+                        <a href="https://uodiyala.edu.iq/uploads/PDF%20ELIBRARY%20UODIYALA/EL99/Electric%20Motor%20Drives%20Modeling,%20Analysis,%20And%20Control.pdf"><b>2-Electric Motor Drives: Modeling, Analysis, and Control — R. Krishnan</b></a><br>
+                        <a href="https://www.scribd.com/document/365624565/Electric-Drives-Second-Edition-by-Ion-Boldea-and-Syed-a-Nasar"><b>3-Electrical Drives — Ion Boldea & Syed A. Nasar</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop7()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/قيادة.webp" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- أجهزة الحماية والتحكم -->
+        <div id="popupDialog_8" class="popup" style="visibility: hidden;">
+            
+            <h3>أجهزة الحماية والتحكم</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLbRwsOM4O-sS7QGVfDuNtdFrqxic8GPSF"><b>- Mohamed Dorbok</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://portal.tpu.ru/SHARED/k/KRIVOVA_LV/Uchebnaya/Tab/Power%20Plant%20Engineering-1.pdf"><b>1-Protective Relaying: Principles and Applications — J. Lewis Blackburn & Thomas J. Domin</b></a><br>
+                        <a href="https://pdfcoffee.com/book-power-system-protection-anderson-pdf-free.html"><b>2-Power System Protection — P. M. Anderson</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop8()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/أجهزةحماية.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+        <!-- الماكينات المحوسبة الرقمية (CNC) -->
+        <div id="popupDialog_9" class="popup" style="visibility: hidden;">
+            
+            <h3>الماكينات المحوسبة الرقمية (CNC)</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLuZDZ2Z1zhOt0lqKQn9tl5Tvk-3nHmJ7s"><b>- ESC For Engineering</b></a><br>
+                        <a href="https://www.youtube.com/watch?v=WEJtnJ0b4vc&list=PLWSBml97d5uvWHyNZM5frxip8NNWRlsWk"><b>- Dr. Eng. M. Heshmat</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://www.scribd.com/document/872905458/Computer-Numerical-Control-Concepts-Amp-Programming-Warren-S-Seames-Society-of-Manufacturing-Engineers-2nd-Ed-Albany-N-Y-New-York-97"><b>1-Computer Numerical Control: Concepts and Programming — Warren S. Seames</b></a><br>
+                        <a href="https://www.scribd.com/document/524836274/CNC-Programming-Handbook-2nd-Edition-by-Peter-Smid"><b>2-CNC Programming Handbook — Peter Smid</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop9()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/cnc.webp" alt="">
+                </div>
+            </div> 
+        </div>
+
+                <!-- القيادة الرئوية والهيدروليكية -->
+        <div id="popupDialog_10" class="popup" style="visibility: hidden;">
+            
+            <h3>القيادة الرئوية والهيدروليكية</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/playlist?list=PLvKqDQ92pJVVRAC5UDjy8Lr4W-LsB8Ke3"><b>- Eng. Laila Saqer</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://elcom-team.com/Subjects/%D8%A7%D9%86%D8%B8%D9%85%D8%A9%20%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83%D9%8A%D8%A9/hydro.pdf"><b>1-Fluid Power with Applications — Anthony Esposito</b></a><br>
+                        <a href="https://www.scribd.com/doc/304847185/Majumdar-Oil-Hydraulic-Systems-Principles-and-Maintenance"><b>2-Pneumatic Systems: Principles and Maintenance — S. R. Majumdar</b></a><br>
+                        <a href="https://ndl.ethernet.edu.et/server/api/core/bitstreams/9bc115d6-7936-44e6-a548-f2f61c8dbaf6/content"><b>3-Hydraulics and Pneumatics: A Technician's and Engineer's Guide — Andrew Parr</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop10()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/قيادةرئوية.jfif" alt="">
+                </div>
+            </div> 
+        </div>
+
+                <!-- التحكم الإشرافي والتقاط البيانات (SCADA) -->
+        <div id="popupDialog_11" class="popup" style="visibility: hidden;">
+            
+            <h3>التحكم الإشرافي والتقاط البيانات (SCADA)</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=5AVp9aFbd5U&list=PL62FigrKPb91SRGAi9qlKmvgF5MD4ecoE"><b>- تقنيات-الهيتي</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://s2.smu.edu/~nair/ftp/senior_design/scada/Practical_SCADA_for_Industry.pdf"><b>1-Practical SCADA for Industry — David Bailey & Edwin Wright</b></a><br>
+                        <a href="https://pdfcoffee.com/stuart-a-boyer-scada-supervisory-control-and-data-acquisition-isa-2004-pdf-free.html"><b>2-SCADA: Supervisory Control and Data Acquisition — Stuart A. Boyer</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop11()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/scada.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+                <!-- الصور الرقمية -->
+        <div id="popupDialog_12" class="popup" style="visibility: hidden;">
+            
+            <h3>الصور الرقمية</h3>
+            <div class="box_content">
+                <div class="right_content">
+                    <br>
+                    <br>
+                    <p>
+                        ● ملخصات: 
+                        <br>
+                        <a href=""><b></b></a>
+                        <br>
+                        ● شروحات:
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=9DPkqCizQq8&list=PLS3UpMTxzDaBiHhXFLuGlVXdbYubZ74UI"><b>- عمر عزيز إبراهيم</b></a><br>
+                        <a href="https://www.youtube.com/watch?v=eMqpBbttYbo&list=PLPBnj6azlABbhxzgKfmwNFVXbq2UVEPtm"><b>- د. أحمد يسري</b></a>
+                        <br>
+                        ● كتب: 
+                        <br>
+                        <a href="https://www.cl72.org/090imagePLib/books/Gonzales,Woods-Digital.Image.Processing.4th.Edition.pdf"><b>1-Digital Image Processing — Rafael C. Gonzalez & Richard E. Woods</b></a><br>
+                        <a href="https://aitskadapa.ac.in/e-books/CSE/DIGITAL%20IMAGE%20PROCESSING/Digital%20Image%20Processing%20(%20PDFDrive%20)%20(1).pdf"><b>2- Digital Image Processing bernd</b></a><br>
+                        <a href="https://ie.u-ryukyu.ac.jp/~asharif/pukiwiki/attach/%E4%BF%A1%E5%8F%B7%E5%87%A6%E7%90%86%E8%AB%96_Digital%20Image%20Processing%20Using%20Matlab.pdf"><b>3-Digital Image Processing Using MATLAB — Rafael C. Gonzalez, Richard E. Woods & Steven L. Eddins</b></a>
+
+                    </p>
+                    <br>
+                    <button onclick="openPop12()" class="close-btn">
+                        إغلاق
+                    </button>
+                </div>
+            
+                <div class="left_content">
+                    <img src="img/صوررقمية.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+
+
+    </section>
+
+    <script>
+        function openPop1() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_1"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+        function openPop2() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_2"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        
+        function openPop3() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_3"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+        function openPop4() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_4"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop5() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_5"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop6() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_6"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop7() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_7"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop8() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_8"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        
+        function openPop9() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_9"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+
+        function openPop10() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_10"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop11() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_11"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+        function openPop12() {
+                    const popDialog =
+                        document.getElementById(
+                            "popupDialog_12"
+                        );
+                    popDialog.style.visibility =
+                        popDialog.style.visibility ===
+                            "visible"
+                            ? "hidden"
+                            : "visible";}
+    </script>
+
+
+</body>
+</html>
